@@ -1,0 +1,66 @@
+[
+  {
+    "type": "image",
+    "name": "appIcon",
+    "content": "https://tse3.mm.bing.net/th/id/OIP.zlAYxG06CWJFcFV6fETTzgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "width": "48",
+    "heigth": "48",
+    "x": "0",
+    "y": "20",
+    "layer": "1"
+  },
+  {
+    "type": "text",
+    "name": "appTitle",
+    "content": "dotShop",
+    "textScale": "42",
+    "x": "60",
+    "y": "20"
+  },
+  {
+    "type": "text",
+    "name": "item1",
+    "content": "Premium Theme",
+    "textScale": "26",
+    "x": "0",
+    "y": "100"
+  },
+  {
+    "type": "text",
+    "name": "price1",
+    "content": "$2.99",
+    "textScale": "22",
+    "x": "0",
+    "y": "140"
+  },
+  {
+    "type": "button",
+    "name": "buyItem1",
+    "content": "Buy",
+    "width": "360",
+    "heigth": "90",
+    "x": "0",
+    "y": "180",
+    "click": "--shop.buy.premium_theme",
+    "texture": {
+      "idle": "https://example.com/textures/buy_idle.png",
+      "focus": "https://example.com/textures/buy_focus.png",
+      "click": "https://example.com/textures/buy_click.png"
+    }
+  },
+  {
+    "type": "button",
+    "name": "exit",
+    "content": "Exit",
+    "width": "360",
+    "heigth": "80",
+    "x": "0",
+    "y": "290",
+    "click": "-system.close",
+    "texture": {
+      "idle": "https://example.com/textures/exit_idle.png",
+      "focus": "https://example.com/textures/exit_focus.png",
+      "click": "https://example.com/textures/exit_click.png"
+    }
+  }
+]
