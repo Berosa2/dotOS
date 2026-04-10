@@ -1,6 +1,6 @@
 [
   "e:help":{
-    content:"<body>
+    content:'<body>
     <h1>ENetwork links and how it work</h1>
     <label>The links in here use the protocols .enc (ENetwork Commerse) .eng (ENetwork Games) .enp (ENetwork Prototype)</label>
     <button onclick="sendToGame('home')">Home</button>
@@ -10,6 +10,6 @@
             , "*");
         }
     </script>
-</body>"
+</body>'
   }
 ]
