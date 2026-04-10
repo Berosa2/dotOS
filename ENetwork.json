@@ -1,15 +1,14 @@
 [
-  "e:help":{
-    content:'<body>
+   "e:help":{
+      "content":"<body>
     <h1>ENetwork links and how it work</h1>
     <label>The links in here use the protocols .enc (ENetwork Commerse) .eng (ENetwork Games) .enp (ENetwork Prototype)</label>
-    <button onclick="sendToGame('home')">Home</button>
+    <button onclick=\"sendToGame(""home"")\">Home</button>
     <script> function sendToGame(action) {
         window.parent.postMessage(
-            {     type: "gdevelop_event",     action: action   }
-            , "*");
+            {     type: \"gdevelop_event\",     action: action   }
+            , \"*\");
         }
     </script>
-</body>'
-  }
-]
+</body>"
+   }
