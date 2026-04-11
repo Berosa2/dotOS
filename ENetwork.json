@@ -1,9 +1,5 @@
 [
   {
-    "id": "bes:help",
-    "content": "<body><h1>ENetwork links and how it work</h1><label>The links in here use the protocols .enc (ENetwork Commerse) .eng (ENetwork Games) .enp (ENetwork Prototype)</label><button onclick=\"sendToGame('home')\">Home</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
-  },
-  {
     "id": "bes:home",
     "content": "<body><h1>Home</h1></body>"
   },
@@ -12,23 +8,11 @@
     "content": "<body><h1 id=\"aura\">Curso pratico de farmar aura para as Mães</h1><h2 id=\"aura\">Modulo extra embreve de o que e farmando laura para os filhos</h2><h3 id=\"aura\">Modulo 1 - Como farmamos auras?</h3><h4 id=\"aura\">Para farmar aura, pense que isso e meio que 'ser legal', fazendo coisas 'discoladas', exemplo.: 'dei uma estrelinha na minha aula' isso e aura</h4><button onclick=\"aura()\">Exemplo de pessoas com muita aura.</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}function aura(){var a=document.getElementById(\"aura\");a.textContent=\"😇\";}</script></body>"
   },
   {
-  "id": "bess:docs",
+  "id": "bes:docs",
   "content": "<body style=\"margin:0;font-family:Arial;background:#0f172a;color:white;\"><div style=\"display:flex;height:100vh;\"><!-- Sidebar --><div style=\"width:220px;background:#1e293b;padding:15px;box-sizing:border-box;\"><h2 style=\"margin-top:0;\">Docs</h2><button onclick=\"showPage('intro')\" style=\"width:100%;margin-bottom:5px;\">Introduction</button><button onclick=\"showPage('protocols')\" style=\"width:100%;margin-bottom:5px;\">Protocols</button><button onclick=\"showPage('apps')\" style=\"width:100%;margin-bottom:5px;\">Apps</button><hr><button onclick=\"sendToGame('NAV_HOME')\" style=\"width:100%;\">Home</button></div><!-- Content --><div id=\"content\" style=\"flex:1;padding:20px;overflow:auto;\"><h1>Welcome</h1><p>Select a section from the left.</p></div></div><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}function showPage(page){var c=document.getElementById(\"content\");if(page==='intro'){c.innerHTML='<h1>Introduction</h1><p>ENetwork is a modular system where apps communicate using events.</p>';}if(page==='protocols'){c.innerHTML='<h1>Protocols</h1><ul><li>.enc → Commerce</li><li>.eng → Games</li><li>.enp → Prototype</li></ul>';}if(page==='apps'){c.innerHTML='<h1>Apps</h1><p>Apps are divided into official (bes:) and custom (bess:).</p>';}}</script></body>"
 },
   {
-    "id": "bess:chat",
+    "id": "bss:chat",
     "content": "<body><h1>Chat</h1><p>Messaging prototype.</p><button onclick=\"sendToGame('NAV_HOME')\">Home</button><button onclick=\"sendToGame('OPEN_DOCS')\">Docs</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
-  },
-  {
-    "id": "bess:browser",
-    "content": "<body><h1>Browser</h1><p>Open ENetwork links.</p><button onclick=\"sendToGame('NAV_HELP')\">Help</button><button onclick=\"sendToGame('NAV_HOME')\">Home</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
-  },
-  {
-    "id": "bess:music",
-    "content": "<body><h1>Music</h1><p>Music player prototype.</p><button onclick=\"sendToGame('PLAY_SOUND')\">Play</button><button onclick=\"sendToGame('NAV_HOME')\">Home</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
-  },
-  {
-    "id": "bess:notes",
-    "content": "<body><h1>Notes</h1><p>Simple notes system.</p><button onclick=\"sendToGame('SAVE_NOTE')\">Save</button><button onclick=\"sendToGame('NAV_HOME')\">Home</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
   }
 ]
