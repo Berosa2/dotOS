@@ -10,5 +10,25 @@
   {
     "id": "bes:aura",
     "content": "<body><h1 id=\"aura\">Curso pratico de farmar aura para as Mães</h1><h2 id=\"aura\">Modulo extra embreve de o que e farmando laura para os filhos</h2><h3 id=\"aura\">Modulo 1 - Como farmamos auras?</h3><h4 id=\"aura\">Para farmar aura, pense que isso e meio que 'ser legal', fazendo coisas 'discoladas', exemplo.: 'dei uma estrelinha na minha aula' isso e aura</h4><button onclick=\"aura()\">Exemplo de pessoas com muita aura.</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}function aura(){var a=document.getElementById(\"aura\");a.textContent=\"😇\";}</script></body>"
+  },
+  {
+    "id": "bess:docs",
+    "content": "<body><h1>Documentation</h1><p>Learn ENetwork basics.</p><button onclick=\"sendToGame('NAV_HOME')\">Home</button><button onclick=\"sendToGame('NAV_HELP')\">Help</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
+  },
+  {
+    "id": "bess:chat",
+    "content": "<body><h1>Chat</h1><p>Messaging prototype.</p><button onclick=\"sendToGame('NAV_HOME')\">Home</button><button onclick=\"sendToGame('OPEN_DOCS')\">Docs</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
+  },
+  {
+    "id": "bess:browser",
+    "content": "<body><h1>Browser</h1><p>Open ENetwork links.</p><button onclick=\"sendToGame('NAV_HELP')\">Help</button><button onclick=\"sendToGame('NAV_HOME')\">Home</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
+  },
+  {
+    "id": "bess:music",
+    "content": "<body><h1>Music</h1><p>Music player prototype.</p><button onclick=\"sendToGame('PLAY_SOUND')\">Play</button><button onclick=\"sendToGame('NAV_HOME')\">Home</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
+  },
+  {
+    "id": "bess:notes",
+    "content": "<body><h1>Notes</h1><p>Simple notes system.</p><button onclick=\"sendToGame('SAVE_NOTE')\">Save</button><button onclick=\"sendToGame('NAV_HOME')\">Home</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
   }
 ]
