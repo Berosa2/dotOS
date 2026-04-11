@@ -9,22 +9,6 @@
   },
   {
     "id":"bes:aura",
-    "content":"<body>
-    <h1 id="aura">Curso pratico de farmar aura para as Mães</h1>
-    <h2 id="aura">Modulo extra embreve de o que e farmando laura para os filhos</h2>
-    <h3 id="aura">Modulo 1 - Como farmamos auras?</h4>
-    <h4 id="aura">Para farmar aura, pense que isso e meio que "ser legal", fazendo coisas 'discoladas', exemplo.: 'dei uma estrelinha na minha aula' isso e aura</h6>
-    <button onclick="aura()">Exemplo de pessoas com muita aura.</button>
-    <script> function sendToGame(action) {
-        window.parent.postMessage(
-            {     type: "gdevelop_event",     action: action   }
-            , "*");
-        }
-    function aura() {
-        var a = document.getElementById("aura")
-        a.textContent = "😇"
-    }
-    </script>
-</body>"
+    "content":"<body><h1 id="aura">Curso pratico de farmar aura para as Mães</h1><h2 id="aura">Modulo extra embreve de o que e farmando laura para os filhos</h2><h3 id="aura">Modulo 1 - Como farmamos auras?</h4><h4 id="aura">Para farmar aura, pense que isso e meio que "ser legal", fazendo coisas 'discoladas', exemplo.: 'dei uma estrelinha na minha aula' isso e aura</h6><button onclick="aura()">Exemplo de pessoas com muita aura.</button><script> function sendToGame(action) {window.parent.postMessage({     type: "gdevelop_event",     action: action   }, "*");}function aura() {var a = document.getElementById("aura")a.textContent = "😇"}</script></body>"
   }
 ]
