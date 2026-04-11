@@ -12,7 +12,7 @@
   "content": "<body style=\"margin:0;font-family:Arial;background:#0f172a;color:white;\"><div style=\"display:flex;height:100vh;\"><!-- Sidebar --><div style=\"width:220px;background:#1e293b;padding:15px;box-sizing:border-box;\"><h2 style=\"margin-top:0;\">Docs</h2><button onclick=\"showPage('intro')\" style=\"width:100%;margin-bottom:5px;\">Introduction</button><button onclick=\"showPage('protocols')\" style=\"width:100%;margin-bottom:5px;\">Protocols</button><button onclick=\"showPage('apps')\" style=\"width:100%;margin-bottom:5px;\">Apps</button><hr><button onclick=\"sendToGame('NAV_HOME')\" style=\"width:100%;\">Home</button></div><!-- Content --><div id=\"content\" style=\"flex:1;padding:20px;overflow:auto;\"><h1>Welcome</h1><p>Select a section from the left.</p></div></div><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}function showPage(page){var c=document.getElementById(\"content\");if(page==='intro'){c.innerHTML='<h1>Introduction</h1><p>ENetwork is a modular system where apps communicate using events.</p>';}if(page==='protocols'){c.innerHTML='<h1>Protocols</h1><ul><li>.enc → Commerce</li><li>.eng → Games</li><li>.enp → Prototype</li></ul>';}if(page==='apps'){c.innerHTML='<h1>Apps</h1><p>Apps are divided into official (bes:) and custom (bess:).</p>';}}</script></body>"
 },
   {
-    "id": "bss:chat",
+    "id": "bes:chat",
     "content": "<body><h1>Chat</h1><p>Messaging prototype.</p><button onclick=\"sendToGame('NAV_HOME')\">Home</button><button onclick=\"sendToGame('OPEN_DOCS')\">Docs</button><script>function sendToGame(action){window.parent.postMessage({type:\"gdevelop_event\",action:action},\"*\");}</script></body>"
   }
 ]
